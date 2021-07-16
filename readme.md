@@ -22,7 +22,7 @@ docker build . -t petclinic
 
 # step 3:- For running the final application linking the petclinic application and mysql database.
 
-docker run -d -p 9000:8080 --name petclinic-final-app --link docker-mysql:mysql petclinic   
+docker run -d -p 9000:8080 --name petclinic-final-app --link kumar-mysql:mysql petclinic   
 
 
 For logs
