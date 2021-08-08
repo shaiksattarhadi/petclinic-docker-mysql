@@ -511,9 +511,9 @@
                 <db.script>mysql</db.script>
                 <jpa.database>MYSQL</jpa.database>
                 <jdbc.driverClassName>com.mysql.cj.jdbc.Driver</jdbc.driverClassName>
-                <jdbc.url>jdbc:mysql://kumar-mysql:3306/kumar_db?useUnicode=true</jdbc.url>
-                <jdbc.username>kumar_user</jdbc.username>
-                <jdbc.password>kumar_password</jdbc.password>
+                <jdbc.url>jdbc:mysql://hadi-mysql:3306/hadi_db?useUnicode=true</jdbc.url>
+                <jdbc.username>hadi_user</jdbc.username>
+                <jdbc.password>hadi_password</jdbc.password>
             </properties>
             <dependencies>
                 <dependency>
